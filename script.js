@@ -1,5 +1,5 @@
 //your JS code here. If required
-	let str = prompt('Enter you name')
+
 	function capitalize(str){
 		for(let ch of name){
 			if(ch >= 'a' && ch <= 'z'){
@@ -7,4 +7,4 @@
 		}
 		return name;
 	}
-			console.log(capitalize(str));
+	console.log(capitalize("John Doe"));
