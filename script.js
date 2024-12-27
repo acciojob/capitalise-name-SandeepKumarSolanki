@@ -1,8 +1,10 @@
-//your JS code here. If required.
-let name = prompt("Enter your name")
-for(let ch of name){
-	if(ch >= 'a' && ch <= 'z'){
-		ch.toUpperCase();
+//your JS code here. If required
+	let str = prompt('Enter you name')
+	function capitalize(str){
+		for(let ch of name){
+			if(ch >= 'a' && ch <= 'z'){
+			ch.toUpperCase();
+		}
+		return name;
 	}
-}
-return name;
+			console.log(capitalize(str));
