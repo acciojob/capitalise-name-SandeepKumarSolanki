@@ -10,5 +10,5 @@ nameBox.addEventListener("blur", () => {
     let upperName = name.toUpperCase();
 
     // Display the uppercase name in the output div
-    output.innerText = `Your name in uppercase is: ${upperName}`;
+    output.innerText = `${upperName}`;
 });
