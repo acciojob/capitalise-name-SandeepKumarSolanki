@@ -9,9 +9,9 @@ btn.addEventListener("click", () => {
 
     // Convert the name to uppercase
     let upperName = name.toUpperCase();
-
+	nameBox.value = upperName;
     // Display the uppercase name in the output div
-    output.innerText = `${upperName}`;
+    // output.innerText = `${upperName}`;
 });
 
 
