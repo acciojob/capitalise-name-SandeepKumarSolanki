@@ -1,17 +1,14 @@
-//your JS code here. If required
 let nameBox = document.getElementById('fname');
-let btn = document.getElementById('btn');
 let output = document.getElementById('output');
 
-btn.addEventListener("click", () => {
+// Listen for the 'blur' event on the input field
+nameBox.addEventListener("blur", () => {
     // Get the value from the input field
     let name = nameBox.value;
 
     // Convert the name to uppercase
     let upperName = name.toUpperCase();
-	nameBox.value = upperName;
+
     // Display the uppercase name in the output div
-    // output.innerText = `${upperName}`;
+    output.innerText = `Your name in uppercase is: ${upperName}`;
 });
-
-
