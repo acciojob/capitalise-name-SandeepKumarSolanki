@@ -1,10 +1,8 @@
 //your JS code here. If required
+let nameBox = document.getElementById('fname');
+input.addEventListener("click",()=>{
+	input.innerText = isCapitalize(nameBox);
+	display(input);
+})
 
-	function capitalize(str){
-		for(let ch of name){
-			if(ch >= 'a' && ch <= 'z'){
-			ch.toUpperCase();
-		}
-		return name;
-	}
-	console.log(capitalize("John Doe"));
+
